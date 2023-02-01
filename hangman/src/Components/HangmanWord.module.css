@@ -1,0 +1,26 @@
+.letters {
+    border-bottom: 0.1em solid black;
+}
+
+.font {
+    display: flex;
+    gap: 0.25em;
+    font-size: 6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+@media (max-width: 700px) {
+    .font {
+        font-size: 4rem;
+        gap: 0.25em;
+    }
+}
+
+@media (max-width: 600px) {
+    .font {
+        font-size: 2.35rem;
+        gap: 0.25em;
+    }
+}
